@@ -6,11 +6,13 @@ import { EnviromentButton } from '../components/EnviromentButton';
 import { Header } from '../components/Header';
 import { Load } from '../components/Load';
 import { PlantCardPrimary } from '../components/PlantCardPrimary';
+import { PlantProps } from '../libs/storage';
+
 import api from '../services/api';
 
 import colors from '../styles/colors'
 import fonts from '../styles/fonts'
-import { PlantProps } from '../libs/storage';
+
 
 interface EnviromentProps {
     key: string

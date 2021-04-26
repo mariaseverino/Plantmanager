@@ -1,11 +1,12 @@
 import React from 'react'
 import { SafeAreaView, Text, Image, TouchableOpacity, StyleSheet, Dimensions, View } from 'react-native'
+import { useNavigation } from '@react-navigation/core'
 import { Feather } from '@expo/vector-icons'
 
 import colors from '../styles/colors'
 import fonts from '../styles/fonts'
+
 import wateringImg from '../assets/watering.png'
-import { useNavigation } from '@react-navigation/core'
 
 export function Welcome(){
     const navigation = useNavigation()
@@ -60,7 +61,6 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 28,
-        fontWeight: 'bold',
         textAlign: 'center',
         color: colors.heading,
         marginTop: 38,

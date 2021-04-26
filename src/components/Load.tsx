@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
 import LottieView from 'lottie-react-native'
 
 import loadAnimation from '../assets/load.json'
